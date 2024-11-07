@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form style="padding: 10px;width: fit-content;">
+  <div>
+  <div class="inputs" style="border-top: 1px solid black">
+    <label for="nombre">Tu Nombre:<span>*</span></label>
+    <input style="margin-left: 106px" value="nombre" type="text" name="nombre" id="nombre">
+  </div>
+  <div class="inputs" style="border-top: 1px solid black">
+    <label for="correo">Tu correo electrónico:<span>*</span></label>
+    <input style="margin-left: 36px" value="correo electrónico" type="text" name="nombre" id="correo">
+  </div>
+  <div class="inputs" style="border-top: 1px solid black">
+    <label for="departamento">Departamento:<span>*</span></label>
+    <input style="margin-left: 84px" value="Ventas" type="text" name="nombre" id="departamento" list="departamentos">
+    <datalist id="departamentos">
+      <option value="Ventas"></option>
+    </datalist>
+  </div>
+  </div>
+
+</form>
+
+
+</body>
+</html>
