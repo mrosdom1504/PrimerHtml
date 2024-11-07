@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Ejercicio 3</title>
 </head>
 <body>
 
 <form style="padding: 10px;width: fit-content;">
-  <div>
-  <div class="inputs" style="border-top: 1px solid black">
-    <label for="nombre">Tu Nombre:<span>*</span></label>
-    <input style="margin-left: 106px" value="nombre" type="text" name="nombre" id="nombre">
-  </div>
-  <div class="inputs" style="border-top: 1px solid black">
-    <label for="correo">Tu correo electrónico:<span>*</span></label>
-    <input style="margin-left: 36px" value="correo electrónico" type="text" name="nombre" id="correo">
-  </div>
-  <div class="inputs" style="border-top: 1px solid black">
-    <label for="departamento">Departamento:<span>*</span></label>
-    <input style="margin-left: 84px" value="Ventas" type="text" name="nombre" id="departamento" list="departamentos">
-    <datalist id="departamentos">
-      <option value="Ventas"></option>
-    </datalist>
-  </div>
-  </div>
+    <div>
+        <h1 style="font-size: 25px">Formulario de reserva de salas</h1>
+        <div class="inputs" style="border-top: 1px solid black">
+            <label for="nombre">Tu Nombre:<span>*</span></label>
+            <input style="margin-left: 123px" value="nombre" type="text" name="nombre" id="nombre">
+        </div>
+        <div class="inputs" style="border-top: 1px solid black">
+            <label for="correo">Tu correo electrónico:<span>*</span></label>
+            <input style="margin-left: 75px" value="correo electrónico" type="text" name="nombre" id="correo">
+        </div>
+        <div class="inputs" style="border-top: 1px solid black">
+            <label for="departamento">Departamento:<span>*</span></label>
+            <input style="margin-left: 108px" value="Ventas" type="text" name="nombre" id="departamento"
+                   list="departamentos">
+            <datalist id="departamentos">
+                <option value="Ventas"></option>
+            </datalist>
+        </div>
+
+        <div class="inputs" style="border-top: 1px solid black;padding-bottom: 20px;padding-top: 20px">
+            <label style="position: absolute;margin-top:23px">Tipo de sala que desea reservar:<span>*</span></label>
+            <div style="text-align: right;padding-right: 10px;display: inline-block;margin-left: 200px">
+                <input style="margin-left: 20px" value="salaA" type="radio" name="nombre" id="Tipo A">
+                <label style="padding-right: 1px" for="Tipo A">Tipo A</label><br>
+                <input style="margin-left: 20px" value="salaB" type="radio" name="nombre" id="Tipo B">
+                <label for="Tipo B">Tipo B</label><br>
+                <input style="margin-left: 20px" value="salaC" type="radio" name="nombre" id="Tipo C">
+                <label for="Tipo C">Tipo C</label>
+            </div>
+        </div>
+        <div class="inputs" style="border-top: 1px solid black;padding-bottom: 20px;padding-top: 20px">
+            <label style="position: absolute;margin-top:23px">Requisitos extra:</label>
+            <div style="text-align: right;padding-right: 10px;display: inline-block;margin-left: 200px">
+                <input style="margin-left: 20px" value="salaA" type="checkbox" name="nombre" id="Caballete">
+                <label for="Caballete">Caballete y boligrafos</label><br>
+                <input style="margin-left: 20px" value="salaB" type="checkbox" name="nombre" id="Televisión">
+                <label style="padding-right: 57px" for="Televisión">Televisión</label><br>
+                <input style="margin-left: 20px" value="salaC" type="checkbox" name="nombre" id="Café">
+                <label style="padding-right: 30px" for="Café">Café, té y agua</label>
+            </div>
+        </div>
+        <div class="inputs" style="border-top: 1px solid black">
+            <label for="fecha">Fecha de la reserva:<span>*</span></label>
+            <input style="margin-left: 81px" value="correo electrónico" type="date" name="nombre" id="fecha">
+        </div>
+        <div class="inputs" style="border-top: 1px solid black;border-bottom: 1px solid black">
+            <label for="hora">Hora de la reserva:<span>*</span></label>
+            <input style="margin-left: 88px" value="correo electrónico" type="time" name="nombre" id="hora">
+        </div>
+    </div>
 
 </form>
 
