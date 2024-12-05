@@ -4,13 +4,14 @@ table {
 
 td {
     border: 1px solid black;
+    padding: 0 10px 0 10px;
 }
 
 td:first-child {
     background-color: green;
 }
 
-table tr:nth-child(4) td:nth-child(2) {
+table tr:nth-child(5) td:nth-child(2) {
     background-color: yellow;
 }
 
@@ -22,9 +23,23 @@ a:visited {
     color: red;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 td:hover:last-child {
     font-size: 200%;
+}
+
+.Dias:first-letter {
+    font-size: 200%;
+}
+input[required] {
+    border: 2px solid red;
+    margin: 5px;
+    padding: 5px;
+}
+label[for]::after {
+    content: " *";
+    color: red;
 }
