@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+td:first-child {
+    background-color: green;
+}
+
+table tr:nth-child(4) td:nth-child(2) {
+    background-color: yellow;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+td:hover:last-child {
+    font-size: 200%;
+}
