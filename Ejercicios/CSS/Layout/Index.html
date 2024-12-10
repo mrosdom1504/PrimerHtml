@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Lugares para um Final de Semana de Aventura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+        <img src="imgs/img.png" alt="Aventura & Cia">
+    </div>
+    <div class="header-text">
+        <h1>[Guia] 10 Lugares para um final de semana de Aventura!</h1>
+        <p>Conheça dicas de lugares para quem busca contato com a natureza.</p>
+    </div>
+</header>
+<main class="container">
+    <section class="content">
+        <img src="imgs/img_1.png" alt="10 Lugares" class="banner">
+        <h2>Todas as regiões do Brasil</h2>
+        <p>
+            Selecionamos dois lugares para cada região do Brasil para você aproveitar
+            uma aventura de final de semana em contato com a natureza.
+        </p>
+    </section>
+    <div class="form-container">
+        <h2>Faça o download grátis aqui!</h2>
+        <p>Basta preencher o formulário abaixo</p>
+        <form>
+            <label for="name">Nome*</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="estado">Estado*</label>
+            <select id="estado" name="estado">
+                <option value="">Selecione</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <!-- Otros estados -->
+            </select>
+
+            <p>Você pratica que tipo de aventura?*</p>
+            <div>
+                <input type="checkbox" id="trekking" name="activity" value="trekking">
+                <label for="trekking">Trekking</label>
+            </div>
+            <div>
+                <input type="checkbox" id="camping" name="activity" value="camping">
+                <label for="camping">Camping</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</main>
+</body>
+</html>
