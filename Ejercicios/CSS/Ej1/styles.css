@@ -36,3 +36,8 @@ img {
 .FondoAzul{
     background-color: blue;
 }
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
