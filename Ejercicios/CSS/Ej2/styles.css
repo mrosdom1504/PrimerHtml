@@ -43,3 +43,6 @@ label[for]::after {
     content: " *";
     color: red;
 }
+body{
+    align-self: center;
+}

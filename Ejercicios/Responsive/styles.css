@@ -1,0 +1,19 @@
+span{
+    font-weight: bold;
+    color: black;
+}
+ul>li{
+    color: darkgreen;
+}
+
+#Categoria{
+    background-color: lightgray;
+}
+#Cursos{
+    background-color: lightgray;
+}
+#nav{
+    display: flex;
+    column-gap: 20px;
+    background-color: greenyellow;
+}
