@@ -5,15 +5,76 @@ span{
 ul>li{
     color: darkgreen;
 }
-
-#Categoria{
-    background-color: lightgray;
-}
-#Cursos{
-    background-color: lightgray;
-}
 #nav{
     display: flex;
-    column-gap: 20px;
-    background-color: greenyellow;
+    column-gap: 25px;
+    background-color: darkgreen;
+    padding: 10px;
+    color: white;
+}
+#header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: black;
+    color: white;
+}
+#content{
+    width: 1080px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+#CategoriaTop{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 2px 2px 0 0;
+    background-color: lightgray;
+}
+#Calendario{
+    padding: 5px 10px 60px 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+#Centro{
+    width: 700px;
+    margin: 20px;
+    display: inline-block;
+}
+.ies{
+    width: 100%;
+}
+#Menu{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+#Imagen{
+    width: 100%;
+}
+.Arbol{
+    width: 60px;
+}
+#Categorias{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    font-weight: bold;
+    box-shadow: 2px 2px 0 0;
 }
