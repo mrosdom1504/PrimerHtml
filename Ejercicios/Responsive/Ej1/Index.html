@@ -1,0 +1,76 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club W Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">ClubW</div>
+    <h1>This year, give a gift everyone will love.</h1>
+    <p>(Hint: It's Wine)</p>
+</header>
+
+<div class="body">
+    <div class="main-content">
+        <div class="image-section">
+            <img src="imgs/img.png" alt="Club W Gift Box">
+            <p>Club W makes it delightfully easy to give great wine as a corporate gift. Simply provide an address, amount, and write a gift note. Your recipients will receive a beautiful gift presentation by mail. Each recipient can customize their Club W Experience with personal recommendations, individual selections, and the ability to choose when and where to have their wine delivered.</p>
+        </div>
+
+        <div class="form-section">
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="amount">Select Amount</label>
+                <select id="amount" name="amount" required>
+                    <option value="">Select...</option>
+                    <option value="50">$50</option>
+                    <option value="100">$100</option>
+                    <option value="150">$150</option>
+                    <option value="200">$200</option>
+                </select>
+
+                <label for="additional-info">Additional Information</label>
+                <textarea id="additional-info" name="additional-info" rows="4"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="seccion-testimonios">
+        <div class="testimonio">
+            <img src="imgs/img_1.png" alt="Testimonial">
+            <p>"Club W is the ultimate one-size-fits-all solution in giving corporate gifts and people absolutely love it."</p>
+            <p><strong>Jessica Austin</strong>, Executive Assistant</p>
+        </div>
+        <div class="testimonio">
+            <img src="imgs/img_2.png" alt="Testimonial">
+            <p>"Club W makes holiday gift-giving so easy and their customer service and attention to detail are second to none."</p>
+            <p><strong>Randy Nichols</strong>, Founder</p>
+        </div>
+        <div class="testimonio">
+            <img src="imgs/img_3.png" alt="Testimonial">
+            <p>"Months later people are still receiving wine shipments and thanking me for the Club W gift."</p>
+            <p><strong>Vernon Hester</strong>, Venture Partner</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

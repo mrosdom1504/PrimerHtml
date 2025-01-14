@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px 10px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header p {
+    color: #888;
+    margin: 5px 0;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.main-content .image-section,
+.main-content .form-section {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+
+.main-content .image-section img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-section form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-section form input,
+.form-section form select,
+.form-section form textarea,
+.form-section form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-section form button {
+    background-color: #800080;
+    color: white;
+    cursor: pointer;
+}
+
+.seccion-testimonios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.testimonio {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.testimonio img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .seccion-testimonios {
+        flex-direction: column;
+    }
+
+    .testimonio {
+        margin: 10px 0;
+    }
+}
