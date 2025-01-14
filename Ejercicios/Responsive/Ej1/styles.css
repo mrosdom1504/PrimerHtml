@@ -121,3 +121,9 @@ header p {
         margin: 10px 0;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .testimonio:nth-child(2) {
+        margin-top: 300px;
+    }
+}
