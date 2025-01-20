@@ -1,0 +1,90 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.diciembre{
+    margin:0;
+    padding: 0;
+    text-align: end;
+}
+
+footer{
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+.menu{
+    margin: 0;
+    display: flex;
+    gap: 80px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px 10px 25px;
+}
+.noticias{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.lista li{
+    padding: 5px;
+}
+.lista li:last-child{
+    height: 100px;
+}
+.noticias h4{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.lista{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.lista li:nth-child(odd){
+    background-color: gray;
+}
+.noticiasnav{
+    display: block;
+}
+.contenedor{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.imagen{
+    display: block;
+    text-align: center;
+    background-color: gray;
+    padding: 5px 0 0 0;
+    margin-top: 20px;
+    width: 200px;
+}
+.imagen p{
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+img{
+    width: 90%;
+}
+.login{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.login h4{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

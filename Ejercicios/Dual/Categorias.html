@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categorías - Tienda Rossi</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* Estilos personalizados */
+    .category-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .category-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .category-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .category-card h5 {
+      margin: 15px 0;
+    }
+    .category-header {
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="Index2.html">Tienda Rossi</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="Index2.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Categorias.html">Categorías</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Ofertas.html">Ofertas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ayuda</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Encabezado -->
+<div class="container my-4">
+  <div class="category-header text-center">
+    <h1 class="display-5">Explora nuestras categorías</h1>
+    <p>Encuentra lo que buscas en nuestro catálogo organizado por categorías.</p>
+  </div>
+</div>
+
+<!-- Lista de categorías -->
+<div class="container py-4">
+  <div class="row gy-4">
+    <!-- Categoría: Electrónica -->
+    <div class="col-md-4">
+      <div class="category-card text-center">
+        <img src="imgs/img_3.png" alt="Electrónica" class="w-100">
+        <div class="p-3">
+          <h5>Electrónica</h5>
+          <p>Dispositivos tecnológicos de última generación.</p>
+          <a href="#" class="btn btn-primary w-100">Explorar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categoría: Ropa -->
+    <div class="col-md-4">
+      <div class="category-card text-center">
+        <img src="imgs/img_4.png" alt="Ropa" class="w-100">
+        <div class="p-3">
+          <h5>Ropa</h5>
+          <p>Las últimas tendencias de moda para todos los estilos.</p>
+          <a href="#" class="btn btn-primary w-100">Explorar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categoría: Hogar -->
+    <div class="col-md-4">
+      <div class="category-card text-center">
+        <img src="imgs/img_5.png" alt="Hogar" class="w-100">
+        <div class="p-3">
+          <h5>Hogar</h5>
+          <p>Todo lo que necesitas para tu hogar y más.</p>
+          <a href="#" class="btn btn-primary w-100">Explorar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categoría: Deportes -->
+    <div class="col-md-4">
+      <div class="category-card text-center">
+        <img src="imgs/img_6.png" alt="Deportes" class="w-100">
+        <div class="p-3">
+          <h5>Deportes</h5>
+          <p>Equipo y accesorios para mantenerte activo.</p>
+          <a href="#" class="btn btn-primary w-100">Explorar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categoría: Libros -->
+    <div class="col-md-4">
+      <div class="category-card text-center">
+        <img src="imgs/img_7.png" alt="Libros" class="w-100">
+        <div class="p-3">
+          <h5>Libros</h5>
+          <p>Explora nuestra colección de libros para todos los gustos.</p>
+          <a href="#" class="btn btn-primary w-100">Explorar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Categoría: Juguetes -->
+    <div class="col-md-4">
+      <div class="category-card text-center">
+        <img src="imgs/img_8.png" alt="Juguetes" class="w-100">
+        <div class="p-3">
+          <h5>Juguetes</h5>
+          <p>Los mejores juguetes para todas las edades.</p>
+          <a href="#" class="btn btn-primary w-100">Explorar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pie de página -->
+<footer class="bg-dark text-white text-center py-4">
+  <p>&copy; 2025 Tienda Rossi | Todos los derechos reservados</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
