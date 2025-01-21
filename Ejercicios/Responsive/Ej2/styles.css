@@ -1,0 +1,104 @@
+.form-section form {
+    width: 300px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+}
+.form-section{
+    display: flex;
+    justify-content: end;
+}
+
+form input,
+form select,
+form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #800080;
+    color: white;
+    cursor: pointer;
+}
+nav{
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: end;
+    margin-right: 90px;
+}
+img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-size: 2em;
+}
+nav h1{
+    margin-left: 90px;
+}
+.hero{
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 2em;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    margin: 0;
+    padding: 10px 0 100px 120px;
+    font-size: 2em;
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+@media (max-width: 768px) {
+    img{
+        width: 250%;
+    }
+    .container{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    img{
+        width: 200%;
+    }
+}
