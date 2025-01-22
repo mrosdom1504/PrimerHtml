@@ -23,9 +23,17 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
+img {
+    width: 100%;
+}
+
 body {
     line-height: 1;
+    background: url('media/img_3.png') no-repeat center center fixed;
+    background-size: cover;
 }
+
 ol, ul {
     list-style: none;
 }
@@ -41,24 +49,73 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-.container {
+.container-fluid{
     position: relative;
-    display: inline-block;
+    padding: 0 !important;
 }
-.nav{
-    text-align: center;
-}
-.image{
-    width: 100%;
-    display: block;
+.nav_img img{
+    margin: 50px 0 60px 0;
+    width: 50%;
+    min-width: 320px ;
 }
 .separator{
     position: absolute;
-    bottom: -25px;
+    bottom: -32px;
     left: 0;
     width: 100%;
 }
 .wrapper{
-    max-width: 1200px;
-    margin: 0 auto;
+    text-align: center;
+    margin: auto;
+}
+
+.formulario__container {
+    width: 40%;
+    margin: auto;
+}
+
+.portada_form {
+    margin-bottom: -10px !important;
+}
+
+.formulario{
+    padding: 10px 20px;
+    background-image: url('media/img_4.png');
+    background-size: contain;
+}
+
+.form-group{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-group__item {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.form-group__item label {
+    color: white;
+}
+
+.portada_form{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 100px;
+    background-color: black;
+    height: 100px;
+}
+.footer p{
+    margin: 20px;
+    padding: 0;
+    color: white;
 }
