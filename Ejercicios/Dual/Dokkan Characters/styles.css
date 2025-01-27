@@ -53,10 +53,24 @@ table {
     position: relative;
     padding: 0 !important;
 }
-.nav_img img{
-    margin: 50px 0 60px 0;
-    width: 50%;
-    min-width: 320px;
+.nav{
+    background: url("media/img_2.png") no-repeat;
+    margin: 60px auto;
+    width: 960px;
+    height: 104px;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.top{
+    margin: 22px 0 0 13px;
+    width: 64px;
+    height: 65px;
+}
+.catalogo{
+    margin: 41px 0 0 13px;
+    width: 100px;
 }
 .separator{
     position: absolute;
@@ -124,18 +138,4 @@ table {
     position: absolute;
     bottom: -1px;
     right: 0;
-}
-.nav_img a{
-    color: white;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .4rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 50px 0 60px 0;
-    width: 50%;
-    min-width: 320px;
 }
